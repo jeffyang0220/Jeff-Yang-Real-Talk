@@ -815,6 +815,67 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+      {/* Next Chapter Section */}
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(34,211,238,0.1)_0%,transparent_70%)]" />
+        </div>
+
+        <div className="max-w-5xl w-full mx-auto px-6">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-[60px] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+            <div className="relative bg-slate-900/50 backdrop-blur-3xl border border-white/10 rounded-[60px] p-12 md:p-24 text-center overflow-hidden">
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-50" />
+              
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm font-bold tracking-[0.3em] uppercase mb-12"
+              >
+                Next Chapter
+              </motion.div>
+
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="text-5xl md:text-8xl font-black text-white mb-10 leading-tight tracking-tighter"
+              >
+                準備好提升您的<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 italic">產品勝率嗎？</span>
+              </motion.h2>
+
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="text-xl md:text-3xl text-slate-300 max-w-4xl mx-auto mb-16 leading-relaxed font-light"
+              >
+                我正在尋找下一個挑戰。如果您需要一位具備<span className="text-cyan-400 font-medium">遊戲思維</span>、<span className="text-blue-400 font-medium">魔術直覺</span>與<span className="text-indigo-400 font-medium">數據驅動能力</span>的資深產品經理，讓我們聊聊。
+              </motion.p>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3 }}
+              >
+                <a 
+                  href="mailto:jeff.yang@innotech.me"
+                  className="inline-flex items-center gap-4 px-10 py-5 md:px-14 md:py-7 bg-cyan-500 hover:bg-cyan-400 text-slate-950 rounded-full font-black text-xl md:text-2xl transition-all hover:scale-105 hover:shadow-[0_0_50px_rgba(34,211,238,0.5)] group"
+                >
+                  <MessageSquare className="w-6 h-6 md:w-8 md:h-8" />
+                  立即聯繫
+                </a>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
