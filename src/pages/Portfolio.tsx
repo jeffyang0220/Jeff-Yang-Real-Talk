@@ -29,7 +29,7 @@ const projects = [
     milestone: '上架產品',
     images: [
       "/images/projects/cyberpoker_1.png",
-      "/cyberpoker_2.png"
+      "/images/projects/cyberpoker_2.png"
     ],
     layout: 'text-left-images-right',
     imageType: 'landscape'
@@ -49,7 +49,7 @@ const projects = [
     milestone: '半年內完成開發，上線首月營收200萬',
     images: [
       '/images/projects/temple_1.png',
-      '/temple_2.png'
+      '/images/projects/temple_2.png'
     ],
     layout: 'text-left-images-right',
     imageType: 'portrait'
@@ -68,7 +68,7 @@ const projects = [
     milestone: '募資五千萬（已下架產品）',
     images: [
       '/images/projects/mahjong_1.png',
-      '/mahjong_2.png'
+      '/images/projects/mahjong_2.png'
     ],
     layout: 'text-left-images-right',
     imageType: 'landscape'
@@ -89,7 +89,7 @@ const projects = [
     milestone: '同時在線用戶達五千人，三個⽉營收七百萬',
     images: [
       '/images/projects/diamond_1.png',
-      '/Diamond_2.png'
+      '/images/projects/Diamond_2.png'
     ],
     layout: 'text-left-images-right',
     imageType: 'landscape'
@@ -109,8 +109,8 @@ const projects = [
     ],
     milestone: '上架獲得App Store 當月最佳APP 第三名',
     images: [
-      '/ballcity_1.png',
-      '/ballcity_2.png'
+      '/images/projects/ballcity_1.png',
+      '/images/projects/ballcity_2.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -131,9 +131,9 @@ const projects = [
     ],
     milestone: '上線用戶達 3 萬',
     images: [
-      '/zeroplus_1.png',
-      '/zeroplus_2.png',
-      '/zeroplus_3.png'
+      '/images/projects/zeroplus_1.png',
+      '/images/projects/zeroplus_2.png',
+      '/images/projects/zeroplus_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -151,9 +151,9 @@ const projects = [
     ],
     milestone: '國際集團合作案',
     images: [
-      '/Merck_1.png',
-      '/merck_2.png',
-      '/Merck_3.png'
+      '/images/projects/Merck_1.png',
+      '/images/projects/merck_2.png',
+      '/images/projects/Merck_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -170,9 +170,9 @@ const projects = [
     ],
     milestone: '協助客戶獲得天使輪融資 300 萬美金',
     images: [
-      '/clipper_1.png',
-      '/clipper_2.png',
-      '/clipper_3.png'
+      '/images/projects/clipper_1.png',
+      '/images/projects/clipper_2.png',
+      '/images/projects/clipper_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -190,9 +190,9 @@ const projects = [
     ],
     milestone: '台灣首個大型遊戲機台與APP連線產品',
     images: [
-      '/arguseye_1.png',
-      '/arguseye_2.png',
-      '/arguseye_3.png'
+      '/images/projects/arguseye_1.png',
+      '/images/projects/arguseye_2.png',
+      '/images/projects/arguseye_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -210,9 +210,9 @@ const projects = [
     ],
     milestone: '第一個 I.O.T 整合超過 30 種裝置的APP',
     images: [
-      '/sivann_1.png',
-      '/sivann_2.png',
-      '/sivann_3.png'
+      '/images/projects/sivann_1.png',
+      '/images/projects/sivann_2.png',
+      '/images/projects/sivann_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -231,9 +231,9 @@ const projects = [
     ],
     milestone: '媒合平台服務，累積有上百位教練',
     images: [
-      '/bananafit_1.png',
-      '/bananafit_2.png',
-      '/bananafit_3.png'
+      '/images/projects/bananafit_1.png',
+      '/images/projects/bananafit_2.png',
+      '/images/projects/bananafit_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -251,9 +251,9 @@ const projects = [
     ],
     milestone: '上線第一個月達到 3000 會員數',
     images: [
-      '/smartchef_1.png',
-      '/smartchef_2.png',
-      '/smartchef_3.png'
+      '/images/projects/smartchef_1.png',
+      '/images/projects/smartchef_2.png',
+      '/images/projects/smartchef_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -270,9 +270,9 @@ const projects = [
     ],
     milestone: '協助客戶達成一萬筆訂單目標',
     images: [
-      '/Jarvis_1.png',
-      '/Jarvis_2.png',
-      '/Jarvis_3.png'
+      '/images/projects/Jarvis_1.png',
+      '/images/projects/Jarvis_2.png',
+      '/images/projects/Jarvis_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -289,7 +289,7 @@ const projects = [
     ],
     milestone: '指紋功能一年後加入到新版的Macbook',
     images: [
-      '/star_1.png'
+      '/images/projects/star_1.png'
     ],
     layout: 'laptop'
   },
@@ -306,8 +306,8 @@ const projects = [
     ],
     milestone: '電競品牌視覺優化',
     images: [
-      '/dreamcatcher_1.png',
-      '/dreamcatcher_3.png'
+      '/images/projects/dreamcatcher_1.png',
+      '/images/projects/dreamcatcher_3.png'
     ],
     layout: 'text-left-images-right',
     imageType: 'landscape'
