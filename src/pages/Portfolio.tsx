@@ -89,7 +89,7 @@ const projects = [
     milestone: '同時在線用戶達五千人，三個⽉營收七百萬',
     images: [
       '/images/projects/diamond_1.png',
-      '/images/projects/Diamond_2.png'
+      '/images/projects/diamond_2.png'
     ],
     layout: 'text-left-images-right',
     imageType: 'landscape'
@@ -151,9 +151,9 @@ const projects = [
     ],
     milestone: '國際集團合作案',
     images: [
-      '/images/projects/Merck_1.png',
+      '/images/projects/merck_1.png',
       '/images/projects/merck_2.png',
-      '/images/projects/Merck_3.png'
+      '/images/projects/merck_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -270,9 +270,9 @@ const projects = [
     ],
     milestone: '協助客戶達成一萬筆訂單目標',
     images: [
-      '/images/projects/Jarvis_1.png',
-      '/images/projects/Jarvis_2.png',
-      '/images/projects/Jarvis_3.png'
+      '/images/projects/jarvis_1.png',
+      '/images/projects/jarvis_2.png',
+      '/images/projects/jarvis_3.png'
     ],
     layout: 'images-left-text-right'
   },
@@ -608,7 +608,7 @@ export default function Portfolio() {
                           whileHover={{ y: -10, scale: 1.02 }}
                           className="h-[720px] w-[340px] bg-slate-950 rounded-[50px] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.9)] border-[5px] border-white/10 ring-2 ring-cyan-500/30"
                         >
-                          <img src={img} className="w-full h-full object-cover" crossOrigin="anonymous" />
+                          <img src={img} className="w-full h-full object-cover" />
                         </motion.div>
                       ))}
                     </div>
@@ -658,7 +658,7 @@ export default function Portfolio() {
                         whileHover={{ scale: 1.02 }}
                         className="relative bg-slate-950 p-10 rounded-[50px] shadow-[0_40px_80px_rgba(0,0,0,0.9)] border-[5px] border-white/10 ring-2 ring-cyan-500/30 w-full max-w-[1000px]"
                       >
-                        <img src={project.images[0]} className="w-full rounded-xl" crossOrigin="anonymous" />
+                        <img src={project.images[0]} className="w-full rounded-xl" />
                         <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-40 h-2 bg-slate-800 rounded-full shadow-inner" />
                       </motion.div>
                     </div>
@@ -691,7 +691,7 @@ export default function Portfolio() {
                           whileHover={{ y: -10, scale: 1.02 }}
                           className={`bg-slate-950 rounded-[50px] overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.9)] border-[5px] border-white/10 ring-2 ring-cyan-500/30 ${project.imageType === 'portrait' ? 'h-[720px] w-[340px]' : 'w-full aspect-video'}`}
                         >
-                          <img src={img} className="w-full h-full object-cover" crossOrigin="anonymous" />
+                          <img src={img} className="w-full h-full object-cover" />
                         </motion.div>
                       ))}
                     </div>
