@@ -291,17 +291,12 @@ export default function HomePage() {
             >
               工作經歷
             </a>
-            <a 
-              href="#experience" 
-              onClick={(e) => {
-                e.preventDefault();
-                setActiveTab('projects');
-                document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
-              }}
+            <Link 
+              to="/portfolio"
               className="hover:text-cyan-400 transition-colors"
             >
               作品集
-            </a>
+            </Link>
             <a href="#skills" className="hover:text-cyan-400 transition-colors">專業技能</a>
             <button 
               onClick={() => {
@@ -367,7 +362,6 @@ export default function HomePage() {
                 src="https://picsum.photos/seed/jeff-avatar/800/800" 
                 alt="Jeff Yang" 
                 className="w-full h-full object-cover rounded-2xl"
-                referrerPolicy="no-referrer"
               />
               
               <div className="absolute bottom-2 right-2 flex -space-x-10 perspective-1000 scale-75 origin-bottom-right">
@@ -592,7 +586,6 @@ export default function HomePage() {
                           src={project.images[0]} 
                           alt={project.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                          referrerPolicy="no-referrer"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80" />
                         <div className="absolute bottom-4 left-6">
@@ -604,15 +597,15 @@ export default function HomePage() {
                         <p className="text-sm text-slate-400 line-clamp-2">{project.features.join(' • ')}</p>
                         <div className="pt-4 border-t border-white/5 flex justify-between items-center">
                           <span className="text-xs font-bold text-pink-400 italic">{project.milestone}</span>
-                          <button 
+                          <Link 
+                            to="/portfolio"
                             onClick={() => {
                               window.scrollTo(0, 0);
-                              navigate('/portfolio');
                             }}
                             className="text-cyan-400 text-xs font-bold flex items-center gap-1 hover:underline"
                           >
                             查看詳情 <ChevronRight className="w-3 h-3" />
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </Card>
